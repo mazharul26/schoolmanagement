@@ -1,5 +1,7 @@
 <?php
-namespace Previewtechs\DokanWeb\Controllers;
+
+namespace Mazharul\Schoolmanagement\Controllers;
+
 use Psr\Container\ContainerInterface;
 use Slim\Views\Twig;
 /**

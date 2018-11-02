@@ -1,5 +1,8 @@
 <?php
-namespace Previewtechs\DokanWeb\Controllers;
+
+
+namespace Mazharul\Schoolmanagement\Controllers;
+
 use Slim\Http\Request;
 use Slim\Http\Response;
 class AuthController extends AppController
