@@ -1,8 +1,12 @@
 <?php
-use Mazharul\schoolmanagement\Controllers\AuthController;
-//use Mazharul\schoolmanagement\Controllers\StoreAdmin\StoreAdminController;
+/**
+ * Common Routes
+ */
+use Mazharul\Schoolmanagement\Controllers\AuthController;
+use Slim\Http\Request;
+use Slim\Http\Response;
 
-
+$app->get("/signups", AuthController::class . ":signup");
 
 $app->get('/', function ($request, $response) {
     return $this->view->render($response, 'signin.twig');
