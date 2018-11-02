@@ -18,7 +18,9 @@ class AuthController extends AppController
      * @param Response $response
      * @return \Psr\Http\Message\ResponseInterface
      */
-
+    public function signin(Request $request , Response $response){
+        return $this->getView()->render($response,"signin.twig");
+    }
 
 
 }

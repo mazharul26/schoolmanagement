@@ -5,15 +5,10 @@
 use Mazharul\Schoolmanagement\Controllers\AuthController;
 use Slim\Http\Request;
 use Slim\Http\Response;
+$app->get("/", AuthController::class . ":signin");
 
-$app->get("/signups", AuthController::class . ":signup");
+$app->get("/signup", AuthController::class . ":signup");
 
-$app->get('/', function ($request, $response) {
-    return $this->view->render($response, 'signin.twig');
-});
-$app->post('/', function ($request, $response) {
-    return $this->view->render($response, 'signin.twig');
-});
 $app->post('/dashboard', function ($request, $response) {
     return $this->view->render($response, 'main_dashboard.twig');
 });
