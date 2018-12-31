@@ -15,6 +15,5 @@ $container['view'] = function ($container) {
 
     return $view;
 };
-require ROOT_DIR.DIRECTORY_SEPARATOR."app/db.php";
 require ROOT_DIR.DIRECTORY_SEPARATOR."app/routes.php";//store-admin related routes included here.
 $app->run();

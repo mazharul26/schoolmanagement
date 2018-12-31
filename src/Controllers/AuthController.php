@@ -3,6 +3,7 @@
 
 namespace Mazharul\Schoolmanagement\Controllers;
 
+use Illuminate\Database\Capsule\Manager;
 use Slim\Http\Request;
 use Slim\Http\Response;
 
@@ -46,8 +47,6 @@ class AuthController extends AppController
     public function signupProccessing(Request $request, Response $response)
     {
         $postData = $request->getParsedBody();
-        var_dump($postData);
-        die();
         return $this->getView()->render($response, "signin.twig");
 
     }
