@@ -28,7 +28,6 @@ class AuthController extends AppController
     {
 
         $postData = $request->getParsedBody();
-        dd($postData);
         return $this->getView()->render($response, "main_dashboard.twig");
     }
 
