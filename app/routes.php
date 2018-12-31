@@ -1,5 +1,4 @@
 <?php
-
 use Mazharul\Controllers;
 use Mazharul\Schoolmanagement\Controllers\AuthController;
 

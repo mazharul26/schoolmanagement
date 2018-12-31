@@ -26,6 +26,9 @@ class AuthController extends AppController
      */
     public function loginProccessing(Request $request, Response $response)
     {
+
+        $postData = $request->getParsedBody();
+        dd($postData);
         return $this->getView()->render($response, "main_dashboard.twig");
     }
 
@@ -47,7 +50,13 @@ class AuthController extends AppController
     public function signupProccessing(Request $request, Response $response)
     {
         $postData = $request->getParsedBody();
-        return $this->getView()->render($response, "signin.twig");
+        //var_dump($postData);die();
+        //$table = Manager::table("users");
+
+
+
+            return $this->getView()->render($response, "signin.twig");
+
 
     }
 
