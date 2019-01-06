@@ -11,6 +11,7 @@ return array(
     'Symfony\\Polyfill\\Ctype\\' => array($vendorDir . '/symfony/polyfill-ctype'),
     'Symfony\\Component\\Translation\\' => array($vendorDir . '/symfony/translation'),
     'Slim\\Views\\' => array($vendorDir . '/slim/twig-view/src'),
+    'Slim\\Flash\\' => array($vendorDir . '/slim/flash/src'),
     'Slim\\' => array($vendorDir . '/slim/slim/Slim'),
     'Psr\\SimpleCache\\' => array($vendorDir . '/psr/simple-cache/src'),
     'Psr\\Http\\Message\\' => array($vendorDir . '/psr/http-message/src'),
