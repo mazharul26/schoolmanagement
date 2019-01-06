@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68e89bf7-e615-473d-8d0e-fc2a72a9c0e1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/defendencies.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controllers/AuthController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllers/AuthController.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -135,7 +134,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="env" value="7" />
-          <entry key="php" value="893" />
+          <entry key="php" value="897" />
           <entry key="twig" value="10" />
           <entry key="txt" value="17" />
         </counts>
@@ -143,7 +142,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key=".env file" value="7" />
-          <entry key="PHP" value="893" />
+          <entry key="PHP" value="897" />
           <entry key="PLAIN_TEXT" value="17" />
           <entry key="Twig" value="10" />
         </counts>
@@ -153,7 +152,7 @@
           <entry key="env" value="1" />
           <entry key="json" value="2" />
           <entry key="log" value="1" />
-          <entry key="php" value="6" />
+          <entry key="php" value="9" />
           <entry key="twig" value="2" />
         </counts>
       </usages-collector>
@@ -162,7 +161,7 @@
           <entry key=".env file" value="1" />
           <entry key="JSON" value="2" />
           <entry key="Log" value="1" />
-          <entry key="PHP" value="6" />
+          <entry key="PHP" value="9" />
           <entry key="Twig" value="2" />
         </counts>
       </usages-collector>
@@ -171,19 +170,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/routes.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Controllers/AuthController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="249">
+              <caret line="51" column="59" selection-start-line="51" selection-start-column="59" selection-end-line="51" selection-end-column="59" />
               <folding>
                 <element signature="e#58#98#0#PHP" expanded="true" />
               </folding>
@@ -192,46 +182,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/template/signin.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="55" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/db.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="49">
-              <caret line="7" column="54" lean-forward="true" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
+            <state relative-caret-position="75">
+              <caret line="7" column="54" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/defendencies.php">
+        <entry file="file://$PROJECT_DIR$/app/dependencies.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
+            <state relative-caret-position="165">
               <caret line="15" column="75" selection-start-line="15" selection-start-column="75" selection-end-line="15" selection-end-column="75" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="579">
-              <caret line="58" selection-start-line="58" selection-end-line="58" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/composer.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
@@ -275,10 +238,10 @@
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/template/signin.twig" />
         <option value="$PROJECT_DIR$/app/routes.php" />
-        <option value="$PROJECT_DIR$/src/Controllers/AuthController.php" />
         <option value="$PROJECT_DIR$/app/db.php" />
         <option value="$PROJECT_DIR$/public/index.php" />
         <option value="$PROJECT_DIR$/app/defendencies.php" />
+        <option value="$PROJECT_DIR$/src/Controllers/AuthController.php" />
       </list>
     </option>
   </component>
@@ -316,6 +279,7 @@
       <path value="$PROJECT_DIR$/vendor/vlucas/phpdotenv" />
       <path value="$PROJECT_DIR$/vendor/illuminate/events" />
       <path value="$PROJECT_DIR$/vendor/illuminate/pagination" />
+      <path value="$PROJECT_DIR$/vendor/slim/flash" />
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
@@ -346,6 +310,17 @@
               <item name="schoolmanagement" type="b2602c69:ProjectViewProjectNode" />
               <item name="schoolmanagement" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="schoolmanagement" type="b2602c69:ProjectViewProjectNode" />
+              <item name="schoolmanagement" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="schoolmanagement" type="b2602c69:ProjectViewProjectNode" />
+              <item name="schoolmanagement" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -402,7 +377,7 @@
       <workItem from="1541171899820" duration="766000" />
       <workItem from="1541260366451" duration="2200000" />
       <workItem from="1546231073531" duration="14092000" />
-      <workItem from="1546752127228" duration="492000" />
+      <workItem from="1546752127228" duration="1056000" />
     </task>
     <task id="LOCAL-00001" summary="Added controllered">
       <created>1541174419521</created>
@@ -488,11 +463,25 @@
       <option name="project" value="LOCAL" />
       <updated>1546426639712</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Added new file.">
+      <created>1546752862511</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1546752862511</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Added new file.">
+      <created>1546752883070</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1546752883070</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52200000" />
+    <option name="totallyTimeSpent" value="52764000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -519,8 +508,8 @@
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49919093" weight="0.3298731" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3268921" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4984375" visible="true" weight="0.2180937" />
+      <window_info anchor="bottom" id="Version Control" order="9" visible="true" weight="0.3263328" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4984375" weight="0.2180937" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5015625" side_tool="true" weight="0.21934758" />
       <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -686,13 +675,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controllers/AuthController.php">
+    <entry file="file://$PROJECT_DIR$/public/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-          <folding>
-            <element signature="e#58#98#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="204">
+          <caret line="33" column="58" selection-start-line="33" selection-start-column="46" selection-end-line="33" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
@@ -703,13 +696,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/routes.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -717,23 +703,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controllers/AuthController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="51" column="59" selection-start-line="51" selection-start-column="59" selection-end-line="51" selection-end-column="59" />
+          <folding>
+            <element signature="e#58#98#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/db.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="49">
-          <caret line="7" column="54" lean-forward="true" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
+        <state relative-caret-position="75">
+          <caret line="7" column="54" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.php">
+    <entry file="file://$PROJECT_DIR$/app/dependencies.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="579">
-          <caret line="58" selection-start-line="58" selection-end-line="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/defendencies.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
+        <state relative-caret-position="165">
           <caret line="15" column="75" selection-start-line="15" selection-start-column="75" selection-end-line="15" selection-end-column="75" />
         </state>
       </provider>

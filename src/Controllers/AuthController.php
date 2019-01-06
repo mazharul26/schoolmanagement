@@ -49,8 +49,7 @@ class AuthController extends AppController
     public function signupProccessing(Request $request, Response $response)
     {
         $postData = $request->getParsedBody();
-        //var_dump($postData);die();
-        //$table = Manager::table("users");
+        $table = Manager::table("users")->insert($postData);
 
 
 
