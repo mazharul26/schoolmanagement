@@ -28,7 +28,10 @@ class AuthController extends AppController
     {
 
         $postData = $request->getParsedBody();
-        return $this->getView()->render($response, "main_dashboard.twig");
+        $usersList = Manager::table("users")->get();
+        return $this->getView()->render($response, "main_dashboard.twig",[
+            "users" => $usersList
+        ]);
     }
 
     /**
