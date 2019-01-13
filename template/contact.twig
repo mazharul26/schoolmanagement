@@ -1,3 +1,24 @@
 {% extends "layouts/main_application.twig" %}
 {% block content %}
 {% endblock %}
+<div class="row mt-4">
+                          <span class="text-muted" style="padding-left: 15px">
+                            showing
+                              {{ ((page - 1) * perPage) + 1 }} - {{ page * perPage > total ? total : page * perPage }}
+                              of {{ total }} records
+                           </span>
+    <br>
+    <div class="col-lg-12 col-md-12 mt-3">
+        <div class="fa-pull-right">
+            {% if page < maxPage %}
+                <a class="btn btn-primary btn-sm text-light" href="/public/logo-verify?page={{ page + 1 }}">Next</a>
+            {% endif %}
+        </div>
+        <div class="fa-pull-left">
+            {% if page > 1 %}
+                <a class="btn btn-primary btn-sm text-light"
+                   href="/public/logo-verify?page={{ page - 1 }}">Previous</a>
+            {% endif %}
+        </div>
+    </div>
+</div>
